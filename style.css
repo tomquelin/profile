@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(225, 218, 218);
+  color: rgb(23, 45, 113);
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  line-height: 90%
+}
+
+h1 {
+  color: rgb(91, 95, 89);
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  line-height: 90%
+}
+
+h2 {
+  color: rgb(91, 95, 89);
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  line-height: 90%
+}
+
+h3 {
+  color: rgb(91, 95, 89);
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  line-height: 90%
+}
+
+a {
+  color: rgb(39, 41, 38);
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: rgb(82, 87, 80);
+}
+
+#profil {
+  height: 280px;
+  width : 280px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+
+#judoka {
+  height: 280px;
+  width : 400px;
+}
+
+.card {
+  border: solid 1px white;
+  margin: 5px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.description {
+  padding: 10px;
+  font-size:15px;
+}
+
+.container {
+  width: 550px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+
+#social {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: -35px;
+}
+
+.btn_blue {
+  background-color: rgb(23, 45, 113);
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 5px;
+  width: 150px;
+  height: 20px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.btn_blue:hover {
+  color: white;
+}
+
+
+
